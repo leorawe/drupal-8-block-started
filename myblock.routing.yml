@@ -1,0 +1,7 @@
+myblock.content:
+  path: '/myblock'
+  defaults:
+    _controller: '\Drupal\myblock\Controller\MyBlockController::content'
+    _title: 'My Block'
+  requirements:
+    _permission: 'access content'

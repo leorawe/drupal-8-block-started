@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - myblock
+  theme:
+    - bartik
+id: myblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: myblock
+settings:
+  id: myblock
+  label: 'My block - leoraw'
+  provider: myblock
+  label_display: visible
+  myblock: 'tootsie <span>heart</span>'
+  myblock_name: 'not useful'
+  myblock_settings: 'nothing in settings'
+visibility: {  }

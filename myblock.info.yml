@@ -1,0 +1,5 @@
+name: MyBlock
+description: Creates a block with some custom content
+package: Custom
+type: module
+core: 8.x
